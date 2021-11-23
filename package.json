@@ -1,8 +1,11 @@
 {
-  "devDependencies": {
-    "@google-cloud/functions-framework": "^2.0.0"
-  },
-  "scripts": {
-    "start": "npx functions-framework --target=getSentiments [--signature-type=http]"
-  }
+   "scripts": {
+      "start": "npx functions-framework --target=getSentiments [--signature-type=http]"
+   },
+   "devDependencies": {
+      "@google-cloud/functions-framework": "^2.0.0"
+   },
+   "dependencies": {
+      "@google-cloud/language": "^4.3.2"
+   }
 }
